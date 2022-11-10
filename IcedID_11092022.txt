@@ -1,0 +1,31 @@
+IcedID
+Campaign - 1559130321
+9/11/2022
+
+Hash:
+
+.lnk - de0010d2b04af3a18355e53d4825b6d7197c67a8850f00a89fda3cd3201f9621
+.cmd - afb973262f8bbbd00f43317086ed665cd0052744830bf96e525f3ce52532fea9
+.dll - 787450a145b962475289214dc0d7b4a49838dc97a8977feff52b9342b7487d36
+
+Command and Control:
+
+anisamnatyrel[.]com
+167.172.39[.]160
+
+Infection Chain:
+
+cmd /c C:\Users\Admin\AppData\Local\Temp\MYFILE.lnk
+
+cmd /c C:\Users\Admin\AppData\Local\Temp\gimmicks.cmd
+
+cmd.exe /S /D /c" echo f"
+
+xcopy C:\Windows\system32\rundll32.exe C:\Users\Admin\AppData\Local\Temp\trysts.exe /h /s /e
+
+cmd.exe /S /D /c" echo f"
+
+xcopy templates619.png C:\Users\Admin\AppData\Local\Temp\10112.30859 /h /s /e
+
+trysts.exe C:\Users\Admin\AppData\Local\Temp\10112.30859,#1
+
